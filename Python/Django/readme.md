@@ -5,7 +5,7 @@
 > venv, django
 
 ## Building Image
-docker image build .
+docker image build . -t *ImageName*
 
 ## Running
-docker run -v full_path_to_project_folder:/app -it -p PORT:8888 dd
+docker run -v *full_path_to_project_folder*:/app -it -p *PORT*:8888 *ImageName*
